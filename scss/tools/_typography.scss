@@ -1,0 +1,67 @@
+@use "../settings/variables";
+
+@mixin heading-4xl {
+	font-size: variables.$fs-title-4xl;
+	font-weight: variables.$weight-bold;
+	line-height: variables.$lh-7;
+}
+
+@mixin heading-3xl {
+	font-size: variables.$fs-title-3xl;
+	font-weight: variables.$weight-semibold;
+	line-height: variables.$lh-6;
+}
+
+@mixin heading-2xl {
+	font-size: variables.$fs-title-2xl;
+	font-weight: variables.$weight-semibold;
+	line-height: variables.$lh-5;
+}
+
+@mixin heading-xl {
+	font-size: variables.$fs-title-xl;
+	font-weight: variables.$weight-semibold;
+	line-height: variables.$lh-4;
+}
+
+@mixin heading-lg {
+	font-size: variables.$fs-title-lg;
+	font-weight: variables.$weight-semibold;
+	line-height: variables.$lh-3;
+}
+
+@mixin heading-md {
+	font-size: variables.$fs-title-md;
+	font-weight: variables.$weight-semibold;
+	line-height: variables.$lh-3;
+}
+
+@mixin heading-sm {
+	font-size: variables.$fs-title-sm;
+	font-weight: variables.$weight-semibold;
+	line-height: variables.$lh-2;
+}
+
+@mixin heading-xs {
+	font-size: variables.$fs-title-xs;
+	font-weight: variables.$weight-semibold;
+	line-height: variables.$lh-1;
+}
+
+@mixin body-lg {
+	font-size: variables.$fs-body-lg;
+	font-weight: variables.$weight-normal;
+	line-height: variables.$lh-3;
+}
+
+@mixin body-md {
+	font-size: variables.$fs-body-md;
+	font-weight: variables.$weight-normal;
+	line-height: variables.$lh-2;
+}
+
+@mixin body-sd {
+	font-size: variables.$fs-body-sm;
+	font-weight: variables.$weight-normal;
+	line-height: variables.$lh-1;
+}
