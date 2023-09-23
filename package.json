@@ -7,8 +7,8 @@
 		"build": "cross-env TS_NODE_PROJECT=\"tsconfig-for-webpack-config.json\" webpack --config webpack.prod.ts",
 		"dev": "cross-env TS_NODE_PROJECT=\"tsconfig-for-webpack-config.json\" webpack serve --config webpack.dev.ts --stats-error-details",
 		"prepare": "husky install",
-		"lint": "eslint ./src/** webpack.common.ts webpack.dev.ts webpack.prod.ts .eslintrc.cjs postcss.config.js",
-		"lint:fix": "npx eslint --fix ./src/** webpack.common.ts webpack.dev.ts webpack.prod.ts .eslintrc.cjs postcss.config.js",
+		"lint": "npx eslint ./**.{js,mjs,cjs,ts,mts}",
+		"lint:fix": "npx eslint --fix ./**.{js,mjs,cjs,ts,mts}",
 		"stylelint": "npx stylelint \"**/*.scss\"",
 		"stylelint:fix": "npx stylelint --fix \"**/*.scss\""
 	},
