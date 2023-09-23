@@ -1,0 +1,19 @@
+// Base colors
+$_white: oklch(100% 0 0deg);
+$_ruby-red: oklch(45.98% 0.177 23.89deg);
+$_venetian-red: oklch(51.25% 0.208 26.66deg);
+$_black: oklch(0% 0 0deg);
+
+// White
+$pure-white: $_white;
+
+// Black
+$pure-black: $_black;
+
+// Red
+$dark-red: $_ruby-red;
+$light-red: $_venetian-red;
+
+// Text
+$text-black: $pure-black;
+$text-white: $pure-white;
