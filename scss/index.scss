@@ -17,7 +17,7 @@
 
 .grid {
 	display: grid;
-	grid-template-rows: 1fr repeat(2, auto) 4.5rem repeat(3, auto) 1fr;
+	grid-template-rows: 1.5fr repeat(2, auto) 4.5rem repeat(3, auto) 1fr;
 	grid-template-columns: 1fr repeat(3, auto) 1fr;
 	min-height: 100vh;
 	min-height: 100svh;
@@ -150,5 +150,30 @@
 
 	&:last-child {
 		block-size: 100%;
+	}
+}
+
+/* stylelint-disable-next-line media-feature-name-no-unknown */
+@media screen and (width >= variables.$screen-tablet) {
+	.uppercase {
+		grid-column: 4 / 6;
+		justify-self: flex-start;
+		padding-inline-start: variables.$space-20;
+		writing-mode: horizontal-tb;
+	}
+
+	.quote3 {
+		grid-row: 4;
+		grid-column: 4;
+	}
+
+	.numbers {
+		grid-row: 6;
+		grid-column: 3;
+		writing-mode: horizontal-tb;
+	}
+
+	.bars {
+		min-block-size: 17rem;
 	}
 }
