@@ -29,8 +29,8 @@
 	grid-column: 1 / 5;
 	padding: variables.$space-4 variables.$space-2;
 	background: variables.$pure-black;
-	font-weight: variables.$weight-light;
 	color: variables.$text-white;
+	font-weight: variables.$weight-light;
 	text-align: right;
 
 	strong {
@@ -56,8 +56,8 @@
 	grid-row: 4 / 9;
 	grid-column: 2;
 	background: variables.$dark-red;
-	font-weight: 700;
 	color: variables.$text-black;
+	font-weight: 700;
 }
 
 .quote2 {
@@ -67,8 +67,8 @@
 	justify-content: center;
 	align-items: flex-end;
 	background: variables.$light-red;
-	font-weight: variables.$weight-bold;
 	color: variables.$text-white;
+	font-weight: variables.$weight-bold;
 	letter-spacing: variables.$space-05;
 }
 
@@ -106,10 +106,10 @@
 	padding-block: variables.$space-2;
 	padding-inline: variables.$space-2;
 	background: variables.$dark-red;
+	color: variables.$text-white;
 	font-weight: variables.$weight-bold;
 	line-height: 1.2;
 	writing-mode: vertical-rl;
-	color: variables.$text-white;
 	text-align: right;
 }
 
@@ -119,8 +119,8 @@
 	grid-column: 3 / 5;
 	flex-direction: column;
 	font-weight: variables.$weight-bold;
-	writing-mode: vertical-rl;
 	letter-spacing: 0.1rem;
+	writing-mode: vertical-rl;
 }
 
 .bars {
@@ -175,5 +175,20 @@
 
 	.bars {
 		min-block-size: 17rem;
+	}
+}
+
+/* stylelint-disable-next-line media-feature-name-no-unknown */
+@media screen and (width >= variables.$screen-desktop) {
+	body {
+		overflow: hidden;
+		block-size: 100vh;
+		inline-size: 100vw;
+	}
+
+	.grid {
+		min-block-size: 200vh;
+		min-inline-size: 200vw;
+		transform: translateX(-50vw) translateY(-50vh) rotate(-45deg);
 	}
 }
