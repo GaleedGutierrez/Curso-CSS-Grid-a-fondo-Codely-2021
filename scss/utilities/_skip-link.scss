@@ -21,8 +21,8 @@
 	margin-inline: variables.$space-6;
 	margin-block-start: variables.$space-6;
 	background-color: var(--background-color);
-	font-weight: variables.$weight-semibold;
 	color: var(--text-color);
+	font-weight: variables.$weight-semibold;
 	transition: transform variables.$time-001;
 	transform: translateY(-200%);
 

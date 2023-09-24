@@ -3,8 +3,8 @@
 
 body {
 	background-color: variables.$pure-white;
-	font-family: variables.$primary-font;
 	color: var(--text-color);
+	font-family: variables.$primary-font;
 
 	@include mixins.body-lg;
 }
