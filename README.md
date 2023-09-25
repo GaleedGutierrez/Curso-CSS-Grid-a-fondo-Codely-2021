@@ -81,6 +81,7 @@ http://localhost:8080
  <img src="https://img.shields.io/static/v1?style=for-the-badge&message=Prettier&color=1a2b34&logo=Prettier&logoColor=F7B93E&label=" alt="Prettier logo">
  <img src="https://img.shields.io/static/v1?style=for-the-badge&message=stylelint&color=263238&logo=stylelint&logoColor=FFFFFF&label=" alt="Stylelint logo">
  <img src="https://img.shields.io/static/v1?style=for-the-badge&message=Webpack&color=222222&logo=Webpack&logoColor=8DD6F9&label=" alt="Webpack logo">
+ <img src="https://img.shields.io/static/v1?style=for-the-badge&message=Babel&color=222222&logo=Babel&logoColor=F9DC3E&label=" alt="Babel logo">
  <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" alt="Git logo">
  <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" alt="GitHub logo">
  <img src="https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white" alt="Npm logo">
