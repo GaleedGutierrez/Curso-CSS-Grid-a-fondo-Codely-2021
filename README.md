@@ -100,9 +100,11 @@ http://localhost:8080
 ## Licencia 📄
 
 Este proyecto está bajo la licencia MIT. Consulta el archivo [LICENSE](https://github.com/GaleedGutierrez/Curso-CSS-Grid-a-fondo-Codely-2021/blob/main/LICENSE) para más detalles.
-<a href="https://github.com/GaleedGutierrez/Curso-CSS-Grid-a-fondo-Codely-2021/blob/main/LICENSE">
-    <img src="https://img.shields.io/badge/MIT-ff2828?style=for-the-badge&label=License&link=https%3A%2F%2Fgithub.com%2FGaleedGutierrez%2FCurso-de-Accesibilidad-Web-2019%2Fblob%2Fmain%2FLICENSE" alt="Licence icon">
-</a>
+<div>
+    <a href="https://github.com/GaleedGutierrez/Curso-CSS-Grid-a-fondo-Codely-2021/blob/main/LICENSE">
+        <img src="https://img.shields.io/badge/MIT-ff2828?style=for-the-badge&label=License&link=https%3A%2F%2Fgithub.com%2FGaleedGutierrez%2FCurso-de-Accesibilidad-Web-2019%2Fblob%2Fmain%2FLICENSE" alt="Licence icon">
+    </a>
+</div>
 
 ## Autor ✒️
 
