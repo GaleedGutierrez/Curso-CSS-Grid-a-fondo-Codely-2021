@@ -19,3 +19,7 @@ h4 {
 h5 {
 	@include mixins.heading-lg;
 }
+
+h6 {
+	@include mixins.heading-md;
+}

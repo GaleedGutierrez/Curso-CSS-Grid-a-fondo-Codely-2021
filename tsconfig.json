@@ -49,5 +49,5 @@
 	},
 	"extends": "@tsconfig/recommended/tsconfig.json",
 	"exclude": ["node_modules"],
-	"include": ["./**/*.ts", "src/utils/analytics.js"]
+	"include": ["./**/*.ts", "src/utils/googleAnalytics.js"]
 }
