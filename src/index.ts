@@ -1,2 +1,2 @@
 import '@styles/index.scss';
-import '@utils/analytics.js';
+import '@src/utils/googleAnalytics.js';
